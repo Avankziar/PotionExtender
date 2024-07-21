@@ -1,0 +1,15 @@
+main: de.avankziar.potionextender.main.PotionExtender
+version: 26
+name: PotionExtender
+author: Avankziar
+api-version: 1.19
+description: Ein Plugin zum verlaengern der Trankdauer
+commands:
+  potion:
+    description: CMD fuer die Potion
+    aliases: [trank]
+permissions:
+  potionextender.cmd:
+    description: Access to /potion duration
+    default: true
+    

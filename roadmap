@@ -1,0 +1,49 @@
+Build 26-5-0
+- Java 21 Dependency
+- Spigot 1.21 Support
+- PotionEffectType Support hinzugefügt:
+  - TRIAL_OMEN
+  - RAID_OMEN
+  - WIND_CHARGED
+  - WEAVING
+  - OOZING
+  - INFESTED
+
+Build 26-4-0
+- Spigot 1.20.4 support
+
+Build 26-3-0
+- Spigot 1.20.1
+
+Build 26-2-0:
+- MC 1.19.2 support 
+
+Build 26-1-0:
+- MC 1.19 Support
+- Darkness Effect added
+
+Build 23:
+- +Update 1.16.1
+- add Hero of the Village Effekt
+- add config.yml usePermission. Sorgt dafür, dass nun wenn true, dass Spieler die Effekte garnicht erst bekommen oder stacken können.
+=> pe.cause.<Cause> => https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityPotionEffectEvent.Cause.html Alles kleingeschrieben.
+
+Vs. 2.0.2:
+- Effekt ist auf alle Mobs übertragen, war eine alte fehlschreibung
+
+Vs. 2.0.0:
+- Spigot 1.14.4 support
+
+Vs. 1.9.0:
+- Vergessener Wither Effekt noch hinzugefügt
+- die 1.14 Effekte hinzufügen
+- Effekte werden nun beim Turtle Helm und bei dem villagerhandel hinzugefügt
+
+Vs. 1.8.1:
+- Effekte Conduction_Power, DOLPHINS_GRACE & SLOW_FALLING f�r den /Trank dauer hinzugef�gt.
+- Minimale Verbesserungen
+
+Vs. 1.8.0:
+- Spigot 1.13.1 Support 
+- Effekte Conduction_Power, DOLPHINS_GRACE & SLOW_FALLING hinzugef�gt
+- Code um die H�lfte reduziert und alle Dinge in einem Event geholt.

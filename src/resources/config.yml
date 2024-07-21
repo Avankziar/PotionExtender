@@ -1,0 +1,13 @@
+#Duration in ticks! 1 sec = 20 ticks
+#radius give the common radius (and theoraticly the duration) of that cloud. That means, 5 x 0.6 Float of the LingeringPotion, if you standing in the center of the cloud. 0.6 Float = 1 Apply of the PotionEffect on you.
+#radius_on_use give the decrased radius per use of an entity.
+#radius_per_tick give the decrased radus per tick, that means, if no one use the Cloud, the cloud will 60 sec active. By use only 5 sec.
+#reapplication_delay give the application of the Potioneffect in the Cloud. (in ticks) Warning! If the number 0 or small than 20, it is heavyer for the server!
+PE:
+  language: 'german'
+  usePermission: true
+  lingering-potion:
+    radius: 5
+    radius_on_use: 0.5
+    radius_per_tick: 0.005
+    reapplication_delay: 20
