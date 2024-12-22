@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>me.avankziar</groupId>
 	<artifactId>potionextender</artifactId>
-	<version>26-5-0</version>
+	<version>26-6-0</version>
 	<name>PotionExtender</name>
 	<url>https://github.com/${repository-owner}/${repository-name}.git</url>
     <scm>
@@ -80,7 +80,7 @@
 			    <artifactId>maven-jar-plugin</artifactId>
 			    <version>2.4</version>
 			    <configuration>
-			      <outputDirectory>F:\Datein\Dev\Dev Server 1.21</outputDirectory>
+			      <outputDirectory>F:\Datein\Dev\Dev Server 1.21.4</outputDirectory>
 			      <finalName>${project.artifactId}-${project.version}</finalName>
 			    </configuration>
 			    <executions>
@@ -106,7 +106,7 @@
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot-api</artifactId>
-			<version>1.21-R0.1-SNAPSHOT</version>
+			<version>1.21.4-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>

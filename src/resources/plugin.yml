@@ -2,7 +2,7 @@ main: me.avankziar.pe.PotionExtender
 version: 26
 name: PotionExtender
 author: Avankziar
-api-version: 1.19
+api-version: 1.21
 description: Ein Plugin zum verlaengern der Trankdauer
 commands:
   potion:
